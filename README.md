@@ -38,22 +38,22 @@ Recipes here are distilled from three apps I built and operate:
 ### Backend patterns
 
 - [03 — Firebase RTDB rules: room-scoped access with an immutable `authorId`](./recipes/03-firebase-rtdb-rules.md) ✅
+- [05 — Supabase as your backend: an anon-RLS leaderboard for a no-server mini-app](./recipes/05-supabase-leaderboard.md) ✅
+
+### Platform integration
+
+- [06 — Loading `@apps-in-toss/web-framework` without breaking your boot (dynamic import, capability checks, reward-ad state machine)](./recipes/06-toss-framework-dynamic-import.md) ✅
 
 ### Store review
 
 - [04 — The icon-rejection saga: when four SHA-identical PNGs still aren't enough](./recipes/04-icon-rejection.md) ✅
 
-### UI patterns (WIP)
+### Coming next (WIP)
 
-- 05 — Web Share / Clipboard / download / open share fallbacks (stub)
-- 06 — Canvas 2D → 1080×1920 PNG generation inside a Toss WebView (stub)
-- 07 — `localStorage` quota guards & graceful degradation (stub)
-- 08 — `ErrorBoundary` patterns for a Toss WebView host (stub)
-
-### Distribution
-
-- 09 — `.ait` packaging: what's actually inside, and how to inspect it (stub)
-- 10 — Reward-ad SDK loading: race conditions and the dark-screen failure mode (stub)
+- 07 — `.ait` packaging: what's actually inside, and how to inspect it
+- 08 — `localStorage` quota guards & graceful degradation
+- 09 — `ErrorBoundary` patterns for a Toss WebView host
+- 10 — Sandbox testing: the dark-screen, app-scheme, and SDK-loading race-condition gallery
 
 ---
 
